@@ -1,0 +1,34 @@
+﻿<Window x:Class="ZdravoCorp.Views.DoctorViews.DoctorExamine"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="PatientInfo" Height="485" Width="675">
+    <Grid Margin="0,0,0,9">
+        <Menu Margin="0,0,0,416">
+            <MenuItem x:Name="StartingPage" Header="Home" Click="StartingPage_OnClick"></MenuItem>
+            <MenuItem x:Name="miObligations" Header="Appointments" >
+                <MenuItem x:Name="NewObligation" Header="New" Click="NewObligation_OnClick"></MenuItem>
+                <MenuItem  x:Name="ViewObligation" Header="View" Click="ViewObligation_OnClick"></MenuItem>
+                <MenuItem x:Name="CancelObligation" Header="Update/Delete" Click="CancelObligation_OnClick"></MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="miSearch" Header="Search" Click="miSearch_Click"></MenuItem>
+            <MenuItem x:Name="miOverview" Header="Work" Click="miOverview_OnClick"></MenuItem>
+            <MenuItem x:Name="miIssue" Header="Issue"></MenuItem>
+            <MenuItem x:Name="miRest" Header="Vacation"></MenuItem>
+            <MenuItem x:Name="miVisit" Header="Visit"></MenuItem>
+            <MenuItem x:Name="miLogout" Header="Logout" Click="miLogout_Click"></MenuItem>
+        </Menu>
+        <Label Content="Examination" HorizontalContentAlignment="Center" Margin="0,49,0,316" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="lblMedicalId" Content="MedicalRecord ID:" Margin="130,92,415,296"/>
+        <TextBox x:Name="tbMedicalId" HorizontalAlignment="Left" Margin="250,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" IsEnabled="False"/>
+        <Button x:Name="btnUpdate" Content="Update" Margin="450,92,130,317" Click="btnUpdate_Click"/>
+        <Label Content="Anamnesis:" Margin="130,144,415,251"/>
+        <Button x:Name="btnComplete" Content="Complete" Margin="254,374,246,27" Click="btnComplete_Click"/>
+        <TextBox x:Name="tbAnamnesis" HorizontalAlignment="Left" Margin="250,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295" Height="206"/>
+    </Grid>
+</Window>

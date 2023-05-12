@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "Username": "zen",
+    "Password": "zen123",
+    "FirstName": "Zen",
+    "LastName": "Shen",
+    "UpdateCancel": [],
+    "Create": [],
+    "IsBlocked": false,
+    "Role": "patient"
+  },
+  {
+    "Id": 2,
+    "Username": "neo",
+    "Password": "neo123",
+    "FirstName": "Neo",
+    "LastName": "Matrix",
+    "UpdateCancel": [],
+    "Create": [],
+    "IsBlocked": false,
+    "Role": "patient"
+  },
+  {
+    "Id": 3,
+    "Username": "kai",
+    "Password": "kai123",
+    "FirstName": "Kai",
+    "LastName": "Taurus",
+    "UpdateCancel": [],
+    "Create": [],
+    "IsBlocked": false,
+    "Role": "patient"
+  },
+  {
+    "Id": 4,
+    "Username": "orc",
+    "Password": "orc123",
+    "FirstName": "Odin",
+    "LastName": "Jackson",
+    "UpdateCancel": [],
+    "Create": [],
+    "IsBlocked": false,
+    "Role": "patient"
+  },
+  {
+    "Id": 5,
+    "Username": "hex",
+    "Password": "hex123",
+    "FirstName": "Simon",
+    "LastName": "Sword",
+    "UpdateCancel": [],
+    "Create": [],
+    "IsBlocked": false,
+    "Role": "patient"
+  },
+  {
+    "Id": 6,
+    "Username": "ace",
+    "Password": "ace123",
+    "FirstName": "Alex",
+    "LastName": "Alexius",
+    "UpdateCancel": [],
+    "Create": [],
+    "IsBlocked": false,
+    "Role": "patient"
+  },
+  {
+    "Id": 7,
+    "Username": "spy",
+    "Password": "spy123",
+    "FirstName": "Marc",
+    "LastName": "Luthor",
+    "UpdateCancel": [],
+    "Create": [],
+    "IsBlocked": false,
+    "Role": "patient"
+  },
+  {
+    "Id": 8,
+    "Username": "rex",
+    "Password": "rex123",
+    "FirstName": "Joe",
+    "LastName": "Black",
+    "UpdateCancel": [],
+    "Create": [],
+    "IsBlocked": false,
+    "Role": "patient"
+  }
+]

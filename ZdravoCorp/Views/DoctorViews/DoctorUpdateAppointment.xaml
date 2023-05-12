@@ -1,0 +1,111 @@
+﻿<Window x:Class="ZdravoCorp.Views.DoctorViews.UpdateAppointment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.Views"
+        mc:Ignorable="d"
+        Title="NewAppointment"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Height="570" Width="840">
+    <Grid x:Name="gNoName" Margin="0,0,-50,-6">
+        <Menu Margin="0,0,10,10">
+            <MenuItem x:Name="StartingPage" Header="Home" Click="StartingPage_OnClick"></MenuItem>
+            <MenuItem x:Name="miObligations" Header="Appointments" >
+                <MenuItem x:Name="NewObligation" Header="New" Click="NewObligation_OnClick"></MenuItem>
+                <MenuItem  x:Name="ViewObligation" Header="View" Click="ViewObligation_OnClick"></MenuItem>
+                <MenuItem x:Name="CancelObligation" Header="Update/Delete" Click="CancelObligation_OnClick"></MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="miSearch" Header="Search" Click="miSearch_Click"></MenuItem>
+            <MenuItem x:Name="miOverview" Header="Work" Click="miOverview_OnClick"></MenuItem>
+            <MenuItem x:Name="miIssue" Header="Issue"></MenuItem>
+            <MenuItem x:Name="miRest" Header="Vacation"></MenuItem>
+            <MenuItem x:Name="miVisit" Header="Visit"></MenuItem>
+            <MenuItem x:Name="miLogout" Header="Logout" Click="miLogout_Click"></MenuItem>
+        </Menu>
+
+
+        <Label Content="Patient:" Margin="92,179,421,321"/>
+        <ComboBox x:Name="cbPatients" Margin="162,181,415,335"/>
+
+        <Label Content="Type:" Margin="92,226,421,273"/>
+        <RadioButton x:Name="rbExamination" Content="Examination" Checked="RbExamination_OnChecked" Margin="162,232,575,268"/>
+        <RadioButton x:Name="rbSurgery" Content="Surgery" Margin="294,233,433,268" Checked="RbSurgery_OnChecked"/>
+        <Label x:Name="lblStart" Content="Start:" Margin="92,274,421,232"/>
+        <DatePicker x:Name="dpStartPicker"  SelectedDateFormat="Short"  Margin="162,275,415,230"/>
+        <Label Content="End:" Margin="92,335,459,171"/>
+        <DatePicker x:Name="dpEndPicker"  SelectedDateFormat="Short"  Margin="160,335,410,171"/>
+
+        <Button x:Name="btnNew" Content="Update" Margin="328,410,328,81" Click="btnUpdate_OnClick"/>
+        <Label Content="Update Appointment" Margin="5,98,5,373" HorizontalContentAlignment="Center" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="lblH" Content="H:" Margin="480,277,317,229"/>
+        <ComboBox x:Name="cbStartHours" HorizontalAlignment="Left" Margin="503,276,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Height="29">
+            <ComboBoxItem>00</ComboBoxItem>
+            <ComboBoxItem>01</ComboBoxItem>
+            <ComboBoxItem>02</ComboBoxItem>
+            <ComboBoxItem>03</ComboBoxItem>
+            <ComboBoxItem>04</ComboBoxItem>
+            <ComboBoxItem>05</ComboBoxItem>
+            <ComboBoxItem>06</ComboBoxItem>
+            <ComboBoxItem>07</ComboBoxItem>
+            <ComboBoxItem>08</ComboBoxItem>
+            <ComboBoxItem>09</ComboBoxItem>
+            <ComboBoxItem>10</ComboBoxItem>
+            <ComboBoxItem>11</ComboBoxItem>
+            <ComboBoxItem>12</ComboBoxItem>
+            <ComboBoxItem>13</ComboBoxItem>
+            <ComboBoxItem>14</ComboBoxItem>
+            <ComboBoxItem>15</ComboBoxItem>
+            <ComboBoxItem>16</ComboBoxItem>
+            <ComboBoxItem>17</ComboBoxItem>
+            <ComboBoxItem>18</ComboBoxItem>
+            <ComboBoxItem>19</ComboBoxItem>
+            <ComboBoxItem>20</ComboBoxItem>
+            <ComboBoxItem>21</ComboBoxItem>
+            <ComboBoxItem>22</ComboBoxItem>
+            <ComboBoxItem>23</ComboBoxItem>
+        </ComboBox>
+        <Label x:Name="lblMin" Content="M:" Margin="628,277,159,229" RenderTransformOrigin="1.979,0.685"/>
+        <ComboBox x:Name="cbStartMinutes" HorizontalAlignment="Left" Margin="660,275,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Height="28">
+            <ComboBoxItem>00</ComboBoxItem>
+            <ComboBoxItem>15</ComboBoxItem>
+            <ComboBoxItem>30</ComboBoxItem>
+            <ComboBoxItem>45</ComboBoxItem>
+        </ComboBox>
+        <Label x:Name="lblH_Copy" Content="H:" Margin="480,335,317,171"/>
+        <Label x:Name="lblMin_Copy" Content="M:" Margin="637,335,150,171" RenderTransformOrigin="1.979,0.685"/>
+        <ComboBox x:Name="cbEndHours" HorizontalAlignment="Left" Margin="503,335,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Height="28">
+            <ComboBoxItem>00</ComboBoxItem>
+            <ComboBoxItem>01</ComboBoxItem>
+            <ComboBoxItem>02</ComboBoxItem>
+            <ComboBoxItem>03</ComboBoxItem>
+            <ComboBoxItem>04</ComboBoxItem>
+            <ComboBoxItem>05</ComboBoxItem>
+            <ComboBoxItem>06</ComboBoxItem>
+            <ComboBoxItem>07</ComboBoxItem>
+            <ComboBoxItem>08</ComboBoxItem>
+            <ComboBoxItem>09</ComboBoxItem>
+            <ComboBoxItem>10</ComboBoxItem>
+            <ComboBoxItem>11</ComboBoxItem>
+            <ComboBoxItem>12</ComboBoxItem>
+            <ComboBoxItem>13</ComboBoxItem>
+            <ComboBoxItem>14</ComboBoxItem>
+            <ComboBoxItem>15</ComboBoxItem>
+            <ComboBoxItem>16</ComboBoxItem>
+            <ComboBoxItem>17</ComboBoxItem>
+            <ComboBoxItem>18</ComboBoxItem>
+            <ComboBoxItem>19</ComboBoxItem>
+            <ComboBoxItem>20</ComboBoxItem>
+            <ComboBoxItem>21</ComboBoxItem>
+            <ComboBoxItem>22</ComboBoxItem>
+            <ComboBoxItem>23</ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="cbEndMinutes" HorizontalAlignment="Left" Margin="660,335,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" Height="28">
+            <ComboBoxItem>00</ComboBoxItem>
+            <ComboBoxItem>15</ComboBoxItem>
+            <ComboBoxItem>30</ComboBoxItem>
+            <ComboBoxItem>45</ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</Window>

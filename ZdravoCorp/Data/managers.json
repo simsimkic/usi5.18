@@ -1,0 +1,26 @@
+﻿[
+  {
+    "Id": 1,
+    "Username": "mario64",
+    "Password": "wahoo",
+    "FirstName": "Mario",
+    "LastName": "Super",
+    "Role": "manager"
+  },
+  {
+    "Id": 3,
+    "Username": "e",
+    "Password": "e",
+    "FirstName": "ario",
+    "LastName": "uper",
+    "Role": "manager"
+  },
+  {
+    "Id": 2,
+    "Username": "broman",
+    "Password": "bro",
+    "FirstName": "bro",
+    "LastName": "man",
+    "Role": "manager"
+  }
+]

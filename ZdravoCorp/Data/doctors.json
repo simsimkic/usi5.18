@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "Username": "cow",
+    "Password": "cow123",
+    "FirstName": "Noah",
+    "LastName": "Smith",
+    "Specialty": "dentist",
+    "Role": "doctor"
+  },
+  {
+    "Id": 2,
+    "Username": "moon",
+    "Password": "moon123",
+    "FirstName": "Felix",
+    "LastName": "Reynolds",
+    "Specialty": "psychologist",
+    "Role": "doctor"
+  },
+  {
+    "Id": 3,
+    "Username": "jupyter",
+    "Password": "jupyter123",
+    "FirstName": "Benjamin",
+    "LastName": "Carter",
+    "Specialty": "surgeon",
+    "Role": "doctor"
+  },
+  {
+    "Id": 4,
+    "Username": "bro",
+    "Password": "bro123",
+    "FirstName": "Donovan",
+    "LastName": "Blackwood",
+    "Specialty": "physiotherapist",
+    "Role": "doctor"
+  },
+  {
+    "Id": 5,
+    "Username": "max",
+    "Password": "max123",
+    "FirstName": "Bozo",
+    "LastName": "Bozovic",
+    "Specialty": "surgeon",
+    "Role": "doctor"
+  }
+]

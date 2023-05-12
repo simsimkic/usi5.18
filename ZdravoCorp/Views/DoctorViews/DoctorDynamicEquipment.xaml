@@ -1,0 +1,38 @@
+﻿<Window x:Class="ZdravoCorp.Views.DoctorDynamicEquipment"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Reduce Dynamic Equipment" Height="310" Width="575"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid Margin="10,10,10,134">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Room ID:" Grid.Row="4" Grid.Column="0" Margin="-2,86,2,-112"/>
+        
+        <TextBox x:Name="tbRoomId" Grid.Row="4" IsEnabled="False" Grid.ColumnSpan="2" Margin="99,86,2,-112" />
+        <TextBlock x:Name="RoomIdErrorText" Foreground="Red" Visibility="Collapsed"/>
+
+        <Label Content="Equipment Type:" Grid.Row="4" Grid.Column="0" Margin="-2,112,2,-138"/>
+        <ComboBox x:Name="cbEquipmentType" Grid.Row="4" Grid.ColumnSpan="2" Margin="99,112,2,-138"/>
+
+        <Label Content="Current Quantity:" Grid.Row="4" Grid.Column="0" Margin="-2,138,2,-164"/>
+        <TextBox x:Name="tbCurrentQuantity" Grid.Row="4" IsEnabled="False" Grid.ColumnSpan="2" Margin="99,138,2,-164"/>
+
+        <Label Content="Used Quantity:" Grid.Row="4" Grid.Column="0" Margin="-2,164,2,-190"/>
+        <TextBox x:Name="tbUsedQuantity" Grid.Row="4" Grid.ColumnSpan="2" Margin="99,164,2,-190"/>
+
+        <Button x:Name="btnUpdate" Content="Update" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" Click="ConfirmButton_Click" Margin="0,195,290,-229" Width="104"/>
+        <Label Content="Dynamic Equipment Update" Grid.ColumnSpan="2" Margin="2,33,0,-81" Grid.RowSpan="5" HorizontalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
+        <Button x:Name="btnFinish" Content="Finish" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" Click="btnFinish_OnClick" Margin="0,195,123,-229" Width="104"/>
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="ZdravoCorp.Views.LoginViews.LoginScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.Views"
+        mc:Ignorable="d"
+        VerticalAlignment="Center"
+        HorizontalAlignment="Center"
+        WindowStartupLocation="CenterScreen"
+        Title="ZdravoCorp" Height="449" Width="600"
+        ResizeMode="NoResize">
+    <Grid Margin="0,0,10,-6">
+        <Label Content="Zdravo Corp" FontSize="20" FontWeight="Bold"  HorizontalAlignment="Left" Margin="225,102,0,-102"/>
+        <Label x:Name="lblPassword" Content="Password:" Canvas.Left="142" Canvas.Top="212" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.467,0.425" DockPanel.Dock="Left" Margin="135,209,0,0" />
+        <TextBox x:Name="tbPassword" Canvas.Left="262" TextWrapping="Wrap" Canvas.Top="216" Width="198" HorizontalAlignment="Left" VerticalAlignment="Top" DockPanel.Dock="Right" Margin="270,213,0,0"/>
+        <Label x:Name="lblUsername" Content="Username:" Canvas.Left="142" Canvas.Top="166" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.508,0.156" DockPanel.Dock="Left" Margin="135,169,0,0"/>
+        <TextBox x:Name="tbUsername" TextWrapping="Wrap" Width="198" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="262" Canvas.Top="170" Margin="270,173,0,0"/>
+        <Button x:Name="btnClear" Content="Clear fields " HorizontalAlignment="Left" Margin="135,263,0,0" VerticalAlignment="Top" Height="48" Width="130" Click="BtnClear_OnClick"/>
+        <Button x:Name="btnLogin" Content="Log In" HorizontalAlignment="Left" Margin="304,263,0,0" VerticalAlignment="Top" Height="48" Width="130" RenderTransformOrigin="-0.523,0.563" Click="BtnLogin_OnClick"/>
+    </Grid>
+</Window>

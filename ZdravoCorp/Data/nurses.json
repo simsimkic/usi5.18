@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 99,
+    "Username": "kru",
+    "Password": "kru123",
+    "FirstName": "John",
+    "LastName": "Wick",
+    "Role": "nurse"
+  },
+  {
+    "Id": 89,
+    "Username": "olp",
+    "Password": "olp123",
+    "FirstName": "Josh",
+    "LastName": "Green",
+    "Role": "nurse"
+  },
+  {
+    "Id": 79,
+    "Username": "emi",
+    "Password": "emi123",
+    "FirstName": "Emily",
+    "LastName": "James",
+    "Role": "nurse"
+  },
+  {
+    "Id": 69,
+    "Username": "nod",
+    "Password": "nod123",
+    "FirstName": "Donovan",
+    "LastName": "Mitchell",
+    "Role": "nurse"
+  },
+  {
+    "Id": 59,
+    "Username": "maxy",
+    "Password": "maxy123",
+    "FirstName": "Maxi",
+    "LastName": "Kleber",
+    "Role": "nurse"
+  }
+]

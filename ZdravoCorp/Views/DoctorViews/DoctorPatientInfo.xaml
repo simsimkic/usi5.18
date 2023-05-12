@@ -1,0 +1,44 @@
+﻿<Window x:Class="ZdravoCorp.Views.DoctorViews.PatientInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.Views"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="PatientInfo" Height="485" Width="785">
+    <Grid Margin="0,0,0,34">
+        <Menu Margin="0,0,10,390">
+            <MenuItem x:Name="StartingPage" Header="Home" Click="StartingPage_OnClick"></MenuItem>
+            <MenuItem x:Name="miObligations" Header="Appointments" >
+                <MenuItem x:Name="NewObligation" Header="New" Click="NewObligation_OnClick"></MenuItem>
+                <MenuItem  x:Name="ViewObligation" Header="View" Click="ViewObligation_OnClick"></MenuItem>
+                <MenuItem x:Name="CancelObligation" Header="Update/Delete" Click="CancelObligation_OnClick"></MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="miSearch" Header="Search" Click="miSearch_Click"></MenuItem>
+            <MenuItem x:Name="miOverview" Header="Work" Click="miOverview_OnClick"></MenuItem>
+            <MenuItem x:Name="miIssue" Header="Issue"></MenuItem>
+            <MenuItem x:Name="miRest" Header="Vacation"></MenuItem>
+            <MenuItem x:Name="miVisit" Header="Visit"></MenuItem>
+            <MenuItem x:Name="miLogout" Header="Logout" Click="miLogout_Click"></MenuItem>
+        </Menu>
+        <Label Content="Patient Info" HorizontalContentAlignment="Center" Margin="0,39,0,326" FontSize="18" FontWeight="Bold"/>
+        <Label Content="First name:" HorizontalAlignment="Left" Margin="260,124,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="tbFirstName" HorizontalAlignment="Left" Margin="392,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" IsEnabled="False"/>
+        <Label Content="Last name:" Margin="260,155,435,230"/>
+        <TextBox x:Name="tbLastName" HorizontalAlignment="Left" Margin="392,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" IsEnabled="False"/>
+        <Label x:Name="lblRole" Content="Role:" HorizontalAlignment="Left" Margin="260,189,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbRole1" HorizontalAlignment="Left" Margin="392,197,0,0" TextWrapping="Wrap" Text="Patient" VerticalAlignment="Top" Width="183" IsEnabled="False"/>
+        <Label x:Name="lblId" Content="Patient's ID:" HorizontalAlignment="Left" Margin="260,230,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="tbPatientId" HorizontalAlignment="Left" Margin="392,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" IsEnabled="False"/>
+        <Label x:Name="lblMedicalId" Content="MedicalRecord ID:" Margin="260,87,405,301"/>
+        <TextBox x:Name="tbMedicalId" HorizontalAlignment="Left" Margin="392,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" IsEnabled="False"/>
+        <Label Content="Height:" Margin="262,269,435,113"/>
+        <TextBox x:Name="tbHeight" HorizontalAlignment="Left" Margin="392,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" IsEnabled="False"/>
+        <Label Content="Weight:" Margin="262,306,435,78"/>
+        <TextBox x:Name="tbWeight" HorizontalAlignment="Left" Margin="392,312,0,84" TextWrapping="Wrap" Width="183" IsEnabled="False"/>
+        <Label Content="Disease History:" Margin="260,341,417,43"/>
+        <TextBox x:Name="tbDiseaseHistory" HorizontalAlignment="Left" Margin="392,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" IsEnabled="False"/>
+    </Grid>
+</Window>

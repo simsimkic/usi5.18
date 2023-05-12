@@ -1,0 +1,964 @@
+[
+  {
+    "Id": 1,
+    "TimeSlot": {
+      "Duration": 15,
+      "End": "2023-04-11T15:15:00",
+      "Start": "2023-04-11T13:00:00"
+    },
+    "Doctor": {
+      "Id": 1,
+      "Username": "cow",
+      "Password": "cow123",
+      "FirstName": "Noah",
+      "LastName": "Smith",
+      "Specialty": "dentist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 38,
+      "Patient": {
+        "Id": 1,
+        "Username": "zen",
+        "Password": "zen123",
+        "FirstName": "Zen",
+        "LastName": "Shen",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 70,
+      "DiseaseHistory": [ "cold, flu" ]
+    },
+    "Type": "surgery",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 2,
+    "TimeSlot": {
+      "Start": "2023-04-10T10:00:00",
+      "End": "2023-04-11T13:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 3,
+      "Username": "jupyter",
+      "Password": "jupyter123",
+      "FirstName": "Benjamin",
+      "LastName": "Carter",
+      "Specialty": "surgeon",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 70,
+      "Patient": {
+        "Id": 5,
+        "Username": "hex",
+        "Password": "hex123",
+        "FirstName": "Simon",
+        "LastName": "Sword",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold, flu" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 3,
+    "TimeSlot": {
+      "Start": "2023-04-10T10:30:00",
+      "End": "2023-04-10T10:45:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 93,
+      "Patient": {
+        "Id": 8,
+        "Username": "rex",
+        "Password": "rex123",
+        "FirstName": "Joe",
+        "LastName": "Black",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 185,
+      "Weight": 95,
+      "DiseaseHistory": [ "migraine" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 4,
+    "TimeSlot": {
+      "Start": "2023-04-18T10:46:00",
+      "End": "2023-04-18T11:01:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 56,
+      "Patient": {
+        "Id": 6,
+        "Username": "ace",
+        "Password": "ace123",
+        "FirstName": "Alex",
+        "LastName": "Alexius",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 185,
+      "Weight": 95,
+      "DiseaseHistory": [ "migraine" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 6,
+    "TimeSlot": {
+      "Start": "2023-04-17T10:30:00",
+      "End": "2023-04-17T10:45:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 100,
+      "Patient": {
+        "Id": 4,
+        "Username": "orc",
+        "Password": "orc123",
+        "FirstName": "Odin",
+        "LastName": "Jackson",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 185,
+      "Weight": 95,
+      "DiseaseHistory": [ "migraine" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 7462,
+    "TimeSlot": {
+      "Start": "2023-04-20T12:45:00",
+      "End": "2023-04-20T13:00:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 539,
+      "Patient": {
+        "Id": 2,
+        "Username": "neo",
+        "Password": "neo123",
+        "FirstName": "Neo",
+        "LastName": "Matrix",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold, flu" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 8358,
+    "TimeSlot": {
+      "Start": "2023-04-21T12:45:00",
+      "End": "2023-04-21T13:00:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 539,
+      "Patient": {
+        "Id": 2,
+        "Username": "neo",
+        "Password": "neo123",
+        "FirstName": "Neo",
+        "LastName": "Matrix",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold, flu" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 6424,
+    "TimeSlot": {
+      "Start": "2023-04-18T09:00:00",
+      "End": "2023-04-18T10:00:00",
+      "Duration": 0
+    },
+    "Doctor": {
+      "Id": 1,
+      "Username": "cow",
+      "Password": "cow123",
+      "FirstName": "Noah",
+      "LastName": "Smith",
+      "Specialty": "dentist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 93,
+      "Patient": {
+        "Id": 8,
+        "Username": "rex",
+        "Password": "rex123",
+        "FirstName": "Joe",
+        "LastName": "Black",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 185,
+      "Weight": 95,
+      "DiseaseHistory": [ "migraine" ]
+    },
+    "Type": "surgery",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 8572,
+    "TimeSlot": {
+      "Start": "2023-04-25T10:45:00",
+      "End": "2023-04-25T11:00:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 539,
+      "Patient": {
+        "Id": 2,
+        "Username": "neo",
+        "Password": "neo123",
+        "FirstName": "Neo",
+        "LastName": "Matrix",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold, flu" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 8709,
+    "TimeSlot": {
+      "Start": "2023-04-25T12:00:00",
+      "End": "2023-04-25T12:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 539,
+      "Patient": {
+        "Id": 2,
+        "Username": "neo",
+        "Password": "neo123",
+        "FirstName": "Neo",
+        "LastName": "Matrix",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold, flu" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 7650,
+    "TimeSlot": {
+      "Start": "2023-04-21T09:00:00",
+      "End": "2023-04-21T09:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 93,
+      "Patient": {
+        "Id": 8,
+        "Username": "rex",
+        "Password": "rex123",
+        "FirstName": "Joe",
+        "LastName": "Black",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 185,
+      "Weight": 95,
+      "DiseaseHistory": [ "migraine" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 7595,
+    "TimeSlot": {
+      "Start": "2023-04-26T11:00:00",
+      "End": "2023-04-26T12:00:00",
+      "Duration": 0
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 539,
+      "Patient": {
+        "Id": 2,
+        "Username": "neo",
+        "Password": "neo123",
+        "FirstName": "Neo",
+        "LastName": "Matrix",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold, flu" ]
+    },
+    "Type": "surgery",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 665,
+    "TimeSlot": {
+      "Start": "2023-04-27T10:00:00",
+      "End": "2023-04-27T10:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 93,
+      "Patient": {
+        "Id": 8,
+        "Username": "rex",
+        "Password": "rex123",
+        "FirstName": "Joe",
+        "LastName": "Black",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 185,
+      "Weight": 95,
+      "DiseaseHistory": [ "migraine" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 9288,
+    "TimeSlot": {
+      "Start": "2023-04-28T10:00:00",
+      "End": "2023-04-28T11:00:00",
+      "Duration": 0
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 93,
+      "Patient": {
+        "Id": 8,
+        "Username": "rex",
+        "Password": "rex123",
+        "FirstName": "Joe",
+        "LastName": "Black",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 185,
+      "Weight": 95,
+      "DiseaseHistory": [ "migraine" ]
+    },
+    "Type": "surgery",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 8657,
+    "TimeSlot": {
+      "Start": "2023-04-21T09:15:00",
+      "End": "2023-04-21T09:30:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 100,
+      "Patient": {
+        "Id": 4,
+        "Username": "orc",
+        "Password": "orc123",
+        "FirstName": "Odin",
+        "LastName": "Jackson",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 185,
+      "Weight": 95,
+      "DiseaseHistory": [ "migraine" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 8564,
+    "TimeSlot": {
+      "Start": "2023-04-30T12:00:00",
+      "End": "2023-04-30T12:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 1,
+      "Username": "cow",
+      "Password": "cow123",
+      "FirstName": "Noah",
+      "LastName": "Smith",
+      "Specialty": "dentist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 999,
+      "Patient": {
+        "Id": 7,
+        "Username": "spy",
+        "Password": "spy123",
+        "FirstName": "Marc",
+        "LastName": "Luthor",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 174,
+      "Weight": 80,
+      "DiseaseHistory": [ "bronchitis" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 7216,
+    "TimeSlot": {
+      "Start": "2023-05-12T13:00:00",
+      "End": "2023-05-12T13:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 56,
+      "Patient": {
+        "Id": 6,
+        "Username": "ace",
+        "Password": "ace123",
+        "FirstName": "Alex",
+        "LastName": "Alexius",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 185,
+      "Weight": 95,
+      "DiseaseHistory": [ "migraine" ]
+    },
+    "Type": "examination",
+    "RoomId": 0,
+    "Status": "Booked"
+  },
+  {
+    "Id": 6069,
+    "TimeSlot": {
+      "Start": "2023-05-11T14:00:00",
+      "End": "2023-05-11T14:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 38,
+      "Patient": {
+        "Id": 1,
+        "Username": "zen",
+        "Password": "zen123",
+        "FirstName": "Zen",
+        "LastName": "Shen",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 70,
+      "DiseaseHistory": [ "cold", "flu" ]
+    },
+    "Type": "examination",
+    "RoomId": 3,
+    "Status": "Compleated"
+  },
+  {
+    "Id": 1706,
+    "TimeSlot": {
+      "Start": "2023-05-11T13:00:00",
+      "End": "2023-05-11T13:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 38,
+      "Patient": {
+        "Id": 1,
+        "Username": "zen",
+        "Password": "zen123",
+        "FirstName": "Zen",
+        "LastName": "Shen",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold", "flu" ]
+    },
+    "Type": "examination",
+    "RoomId": 4,
+    "Status": "Compleated"
+  },
+  {
+    "Id": 8509,
+    "TimeSlot": {
+      "Start": "2023-05-11T15:00:00",
+      "End": "2023-05-11T15:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 38,
+      "Patient": {
+        "Id": 1,
+        "Username": "zen",
+        "Password": "zen123",
+        "FirstName": "Zen",
+        "LastName": "Shen",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold", "flu" ]
+    },
+    "Type": "examination",
+    "RoomId": 6,
+    "Status": "Booked"
+  },
+  {
+    "Id": 8192,
+    "TimeSlot": {
+      "Start": "2023-05-11T16:00:00",
+      "End": "2023-05-11T16:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 38,
+      "Patient": {
+        "Id": 1,
+        "Username": "zen",
+        "Password": "zen123",
+        "FirstName": "Zen",
+        "LastName": "Shen",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold", "flu" ]
+    },
+    "Type": "examination",
+    "RoomId": 3,
+    "Status": "Compleated"
+  },
+  {
+    "Id": 1329,
+    "TimeSlot": {
+      "Start": "2023-05-11T15:15:00",
+      "End": "2023-05-11T15:30:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 38,
+      "Patient": {
+        "Id": 1,
+        "Username": "zen",
+        "Password": "zen123",
+        "FirstName": "Zen",
+        "LastName": "Shen",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold", "flu" ]
+    },
+    "Type": "examination",
+    "RoomId": 4,
+    "Status": "Compleated"
+  },
+  {
+    "Id": 1294,
+    "TimeSlot": {
+      "Start": "2023-05-12T14:00:00",
+      "End": "2023-05-12T14:15:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 539,
+      "Patient": {
+        "Id": 2,
+        "Username": "neo",
+        "Password": "neo123",
+        "FirstName": "Neo",
+        "LastName": "Matrix",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold" ]
+    },
+    "Type": "examination",
+    "RoomId": 3,
+    "Status": "Canceled"
+  },
+  {
+    "Id": 3038,
+    "TimeSlot": {
+      "Start": "2023-05-12T14:15:00",
+      "End": "2023-05-12T14:30:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 539,
+      "Patient": {
+        "Id": 2,
+        "Username": "neo",
+        "Password": "neo123",
+        "FirstName": "Neo",
+        "LastName": "Matrix",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold" ]
+    },
+    "Type": "examination",
+    "RoomId": 3,
+    "Status": "Canceled"
+  },
+  {
+    "Id": 439,
+    "TimeSlot": {
+      "Start": "2023-05-12T14:30:00",
+      "End": "2023-05-12T14:45:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 539,
+      "Patient": {
+        "Id": 2,
+        "Username": "neo",
+        "Password": "neo123",
+        "FirstName": "Neo",
+        "LastName": "Matrix",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold" ]
+    },
+    "Type": "examination",
+    "RoomId": 6,
+    "Status": "Canceled"
+  },
+  {
+    "Id": 6365,
+    "TimeSlot": {
+      "Start": "2023-05-12T14:45:00",
+      "End": "2023-05-12T15:00:00",
+      "Duration": 15
+    },
+    "Doctor": {
+      "Id": 2,
+      "Username": "moon",
+      "Password": "moon123",
+      "FirstName": "Felix",
+      "LastName": "Reynolds",
+      "Specialty": "psychologist",
+      "Role": "doctor"
+    },
+    "MedicalRecord": {
+      "Id": 539,
+      "Patient": {
+        "Id": 2,
+        "Username": "neo",
+        "Password": "neo123",
+        "FirstName": "Neo",
+        "LastName": "Matrix",
+        "UpdateCancel": [],
+        "Create": [],
+        "IsBlocked": false,
+        "Role": "patient"
+      },
+      "Height": 180,
+      "Weight": 80,
+      "DiseaseHistory": [ "cold" ]
+    },
+    "Type": "examination",
+    "RoomId": 6,
+    "Status": "Canceled"
+  }
+]
